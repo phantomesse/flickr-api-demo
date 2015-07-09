@@ -60,9 +60,35 @@ body {
 }
 /* line 57, ../sass/styles.scss */
 #search.sticky {
+  z-index: 100;
+  position: fixed;
+  top: 0;
+  left: 0;
   height: auto;
 }
-/* line 60, ../sass/styles.scss */
+/* line 64, ../sass/styles.scss */
 #search.sticky input {
   width: 100%;
+}
+
+/* line 70, ../sass/styles.scss */
+#images-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  top: 40px;
+  width: 100%;
+}
+/* line 78, ../sass/styles.scss */
+#images-container img {
+  margin: 8px;
 }
